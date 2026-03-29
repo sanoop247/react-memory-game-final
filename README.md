@@ -2,7 +2,7 @@
 
 A browser based memory card game built with React, Typescript and Vite
 
-# Rules
+## Rules
 
 Player reveals 2 cards one after another trying to match the numbers inside it in the shortest possible time
 
