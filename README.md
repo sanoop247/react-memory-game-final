@@ -25,3 +25,8 @@ Player reveals 2 cards one after another trying to match the numbers inside it i
 - GameResult component shows the winning message and provides option to restart the game
 - Card component defines the structure of each card and its flipping logic.
 
+## Assumptions
+- Single player game
+- Timer tracks time per second since the game is meant to be a fun interactive experience for the player
+  
+
