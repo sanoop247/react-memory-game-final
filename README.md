@@ -20,6 +20,7 @@ Player reveals 2 cards one after another trying to match the numbers inside it i
 - npm run dev
 
 ## Overview of approach
+- Fisher-Yates shuffling algorithm used to shuffle cards.
 - Gameboard component manages the logic to check matches of flipped cards
 - Timer component tracks the time player takes to complete the game
 - GameResult component shows the winning message and provides option to restart the game
@@ -28,5 +29,14 @@ Player reveals 2 cards one after another trying to match the numbers inside it i
 ## Assumptions
 - Single player game
 - Timer tracks time per second since the game is meant to be a fun interactive experience for the player
+
+## Tradeoffs
+- Inline styles could be used to reduce lines of code but make the code less structured and thus harder to maintain
+- Simpler shuffles could have been used to reduce complexity but Fisher-Yates shuffle is proven to be more reliable.
+
+## Suggested Improvements
+- gameboard dimensions can be customised to 4*4, 6*6 and 8*8 to provide difficulty options for player
+- Persist timing with local storage to store best times.
+- Welcome screen with game instructions for players
   
 
