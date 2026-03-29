@@ -1,0 +1,16 @@
+.play-again-btn {
+  background-color: lightblue;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  margin: 0 auto;
+  border: 1px solid black;
+  display: block;
+  font-size: 15px;
+}
+.win-text {
+  text-align: center;
+  font-size: 20px;
+  color: blueviolet;
+}
